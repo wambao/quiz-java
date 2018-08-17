@@ -10,3 +10,7 @@
 .start:hover{
   text-decoration: underline;
 }
+
+.finalResult{
+  display: none;
+}
