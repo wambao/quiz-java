@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $(".start").click(function(){
-    ("#test").show();
-  })
+    ("#test").fadeIn("slow");
+  });
 });
