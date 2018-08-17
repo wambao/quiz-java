@@ -1,0 +1,12 @@
+#test{
+  display: none;
+}
+.start{
+  cursor: pointer;
+  color: #558B2F;
+  font-size: 20px;
+}
+
+.start:hover{
+  text-decoration: underline;
+}
