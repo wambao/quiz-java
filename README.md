@@ -51,3 +51,9 @@ An online test that alllows user to answer questions using multiple choices then
  ## Link To Live Website
  [Quiz-Board](https://lcndinda.github.io/Quiz-Board/)
  
+ ***
+ 
+ ## Copyright and License Information
+  This project is licensed under the terms of the **MIT** license.
+ 
+ 
