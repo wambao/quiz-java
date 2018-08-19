@@ -47,6 +47,27 @@ An online test that alllows user to answer questions using multiple choices then
 
     **OUTPUT EXAMPLE:** An answer is required
     
+ 4. Correct answers are awarded **5 points**
+ 
+     **INPUT EXAMPLE:** 
+     * Script tags        - Checked(correct Answer)
+     * Js tags            
+     * JavaScript tag     
+     * Scripting tags    
+
+    **OUTPUT EXAMPLE:** 5 marks
+  
+  5. Wrong answers are awarded **0 points**
+ 
+     **INPUT EXAMPLE:** 
+     * Script tags        
+     * Js tags            
+     * JavaScript tag     - Checked(Wrong Answer)
+     * Scripting tags    
+     
+     **OUTPUT EXAMPLE:** 0 marks
+    
+    
  ***
  ## Link To Live Website
  [Quiz-Board](https://lcndinda.github.io/Quiz-Board/)
