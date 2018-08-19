@@ -1,10 +1,43 @@
 #test{
   display: none;
 }
+.btn{
+  background-color: #33691E;
+  color: white;
+}
+
+#q1{
+  color: white;
+  font-weight: bold;
+}
+
+#q2{
+  color: white;
+  font-weight: bold;
+}
+
+#q3{
+  color: white;
+  font-weight: bold;
+}
+
+#q4{
+  color: white;
+  font-weight: bold;
+}
+#q5{
+  color: white;
+  font-weight: bold;
+}
+
+.well{
+  background-color: #AED581;
+}
 .start{
   cursor: pointer;
   color: #558B2F;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .start:hover{
@@ -33,4 +66,27 @@ li{
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
+}
+
+img{
+  float: right;
+  width: 200px;
+}
+.radio{
+  font-size: 15px;
+
+}
+.btn-grey{
+  background-color: #EEEEEE;
+}
+
+.grey-background{
+  background-color:#EEEEEE;
+}
+
+.btn-green{
+  background-color: #A5D6A7;
+}
+.green-background{
+  background-color: #A5D6A7;
 }
