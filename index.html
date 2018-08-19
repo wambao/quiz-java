@@ -18,10 +18,10 @@
           <ol>
             <li>The test contains 5 questions.</li>
             <li>You will get 5 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 25 points.</li>
+            <li>Ensure that you have answered all questions.</li>
           </ol>
       </div>
             <p><span class="start">Start</span> The Quiz</p>
-
 
 
           <div class="row">
@@ -35,8 +35,9 @@
                   <h1>The Test</h1>
                     <p>Good Luck!</p>
                   <h3>Questions</h3>
+                    <div id="q1">
                     <label for="Q1">1. Inside which HTML element do we put the JavaScript?</label>
-                      <div class="radio">
+                      <div class="radio" id="q1">
                         <label>
                           <input type="radio" name="Q1" value="0">JavaScript tags
                         </label>
@@ -59,6 +60,10 @@
                           <input type="radio" name="Q1" value="0">Js tags
                         </label>
                       </div>
+                    </div>
+                      <p> <span class="genderValidation"></span> </p>
+
+                    <div id="q2">
 
                       <label for="Q2">2. Where is the correct place to insert a JavaScript?</label>
                         <div class="radio">
@@ -78,6 +83,11 @@
                             <input type="radio" name="Q2" value="0">The "head" section
                           </label>
                         </div>
+                      </div>
+
+                      <p> <span class="genderValidation"></span> </p>
+
+                      <div id="q3">
 
                         <label for="Q3">3. What is the correct syntax for referring to an external script called "xxx.js"?</label>
                           <div class="radio">
@@ -97,6 +107,11 @@
                               <input type="radio" name="Q3" value="0">"script name="xxx.js" "
                             </label>
                           </div>
+                        </div>
+
+                        <p> <span class="genderValidation"></span> </p>
+
+                        <div id="q4">
 
                           <label for="Q4">4. What is the correct syntax for referring to an external script called "xxx.js"?</label>
                             <div class="radio">
@@ -110,6 +125,11 @@
                                 <input type="radio" name="Q4" value="0">False
                               </label>
                             </div>
+                          </div>
+
+                          <p> <span class="genderValidation"></span> </p>
+
+                          <div id="q5">
 
                             <label for="Q5">5. How do you create a function in JavaScript?</label>
                             <div class="radio">
@@ -129,13 +149,13 @@
                                 <input type="radio" name="Q5" value="0">function = myFunction()
                               </label>
                             </div>
+                          </div>
 
+                          <p> <span class="genderValidation"></span> </p>
 
-                        <button type="submit" class="btn-success">Submit</button>
+                        <button type="submit" class=" btn btn-succes">Submit</button>
 
                 </div>
-
-
               </form>
               <div class="finalResult">
                 <p> <span id="display"></span> </p>
@@ -147,13 +167,23 @@
 
             </div>
 
+          </div>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h2>Fun Facts with JavaScript</h2>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
 
+            </div>
 
           </div>
-
-    </div>
-
-    </div>
+        </div>
 
   </body>
 </html>
