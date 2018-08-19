@@ -1,17 +1,11 @@
 var testResults = function(one, two ,three, four, five){
-  // if (isNaN(one) || isNaN(two) || isNaN(three) ||   isNaN(four) || isNaN(four) ) {
-  //   alert("Check the answers to your question");
-  //
-  //
-  //
-  // }
-  //
-  // else {
-      return one + two + three + four + five;
-//  }
 
+      return one + two + three + four + five;
 
 };
+
+
+
 
 $(document).ready(function(){
   $(".start").click(function(){
@@ -38,23 +32,23 @@ $(document).ready(function(){
                return false;
      }
     var que2 = parseInt($("input:radio[name=Q2]:checked").val());
-    if($("input:radio[name=Q2]:checked").length == 0){
-      $('#q2').text("An answer is required");
+      if($("input:radio[name=Q2]:checked").length == 0){
+        $('#q2').text("An answer is required");
               return false;
     }
     var que3 = parseInt($("input:radio[name=Q3]:checked").val());
-    if($("input:radio[name=Q3]:checked").length == 0){
-      $('#q3').text("An answer is required");
+      if($("input:radio[name=Q3]:checked").length == 0){
+        $('#q3').text("An answer is required");
               return false;
     }
     var que4 = parseInt($("input:radio[name=Q4]:checked").val());
-    if($("input:radio[name=Q4]:checked").length == 0){
-      $('#q4').text("An answer is required");
+      if($("input:radio[name=Q4]:checked").length == 0){
+        $('#q4').text("An answer is required");
               return false;
     }
     var que5 = parseInt($("input:radio[name=Q5]:checked").val());
-    if($("input:radio[name=Q5]:checked").length == 0){
-      $('#q5').text("An answer is required");
+      if($("input:radio[name=Q5]:checked").length == 0){
+        $('#q5').text("An answer is required");
               return false;
     }
     var result = testResults(que1, que2, que3, que4, que5);
