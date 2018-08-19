@@ -2,6 +2,7 @@ var testResults = function(one, two ,three, four, five){
 
       return one + two + three + four + five;
 
+
 };
 
 
@@ -58,5 +59,6 @@ $(document).ready(function(){
     event.preventDefault();
     $("#test").fadeOut();
     $(".finalResult").show();
+    $("form").trigger("reset");
   });
 });
