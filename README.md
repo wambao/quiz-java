@@ -18,12 +18,21 @@ An online test that alllows user to answer questions using multiple choices then
 
 ***
 ## Behavior Driven Development
-1. The program allows the user to select only one option
+1. The program allows the user to select only one option. The user cannot select multiple options
   
-  **INPUT EXAMPLE:** 
-   * Script tags
-   * Js tags 
-   * JavaScript tag 
-   * Scripting tags
-  
-  **OUTPUT EXAMPLE:** script tags
+    **INPUT EXAMPLE:** 
+     * Script tags   - checkecd
+     * Js tags 
+     * JavaScript tag 
+     * Scripting tags
+
+    **OUTPUT EXAMPLE:** Script tags
+    
+2. The program requires the user to select any option
+
+    **INPUT EXAMPLE:** 
+     * True
+     * False  - checked
+    
+
+    **OUTPUT EXAMPLE:** False
