@@ -21,7 +21,7 @@ An online test that alllows user to answer questions using multiple choices then
 1. The program allows the user to  **select only one option**. The user cannot select multiple options
   
     **INPUT EXAMPLE:** 
-     * Script tags   - checkecd
+     * Script tags     - checkecd
      * Js tags 
      * JavaScript tag 
      * Scripting tags
@@ -32,7 +32,7 @@ An online test that alllows user to answer questions using multiple choices then
 
     **INPUT EXAMPLE:** 
      * True
-     * False  - checked
+     * False    - checked
     
 
     **OUTPUT EXAMPLE:** False
@@ -40,11 +40,14 @@ An online test that alllows user to answer questions using multiple choices then
  3. The program requires that the user to **at least select an option befor submitting the form**
  
      **INPUT EXAMPLE:** 
-     * Script tags      - Not Checked
-     * Js tags          - Not Checked
-     * JavaScript tag   - Not Checked
-     * Scripting tags   - Not Checked
+     * Script tags        - Not Checked
+     * Js tags            - Not Checked
+     * JavaScript tag     - Not Checked
+     * Scripting tags     - Not Checked
 
     **OUTPUT EXAMPLE:** An answer is required
     
+ ***
+ ## Link To Live Website
+ [Quiz-Board](https://lcndinda.github.io/Quiz-Board/)
  
