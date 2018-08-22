@@ -1,9 +1,20 @@
 # Project Name
-Quiz-Board
+Quiz-Java
 
 ***
 ## Author
-By ELSIE NDINDA KALEI
+ByLydia Kinyanjui
+
+***
+## Description
+An online test that alllows user to answer questions using multiple choices then returns the results once the user clicks submit.
+
+***
+## Setup Instructions
+* Clone the project from my repository by clicking on the clone button.
+* Copy the link
+* Open the terminal and write git clone then paste the link on the directory you want to place the project.
+* Open the directory then open the index.html file on the browser to run the program.
 
 ***
 ## Description
@@ -21,12 +32,12 @@ An online test that alllows user to answer questions using multiple choices then
 1. The program allows the user to  **select only one option**. The user cannot select multiple options
   
     **INPUT EXAMPLE:** 
-     * Script tags     - checkecd
-     * Js tags 
-     * JavaScript tag 
-     * Scripting tags
-
-    **OUTPUT EXAMPLE:** Script tags
+     **INPUT EXAMPLE:** 
+     * while()
+     * loop()       
+     * forEach()      -checked
+     
+    **OUTPUT EXAMPLE:** forEach
     
 2. The program requires the user to **select any option**.
 
@@ -39,31 +50,27 @@ An online test that alllows user to answer questions using multiple choices then
     
  3. The program requires that the user to **at least select an option befor submitting the form**
  
-     **INPUT EXAMPLE:** 
-     * Script tags        - Not Checked
-     * Js tags            - Not Checked
-     * JavaScript tag     - Not Checked
-     * Scripting tags     - Not Checked
-
+     **INPUT EXAMPLE:**
+      * while()          -Not Checked
+      * loop()           -Not Checked
+      * forEach()        -Not Checked
+     
     **OUTPUT EXAMPLE:** An answer is required
     
- 4. Correct answers are awarded **5 points**
+ 4. Correct answers are awarded **2points**
  
      **INPUT EXAMPLE:** 
-     * Script tags        - Checked(correct Answer)
-     * Js tags            
-     * JavaScript tag     
-     * Scripting tags    
-
-    **OUTPUT EXAMPLE:** 5 marks
+      * while()          
+      * loop()           
+      * forEach()        -Checked
+    **OUTPUT EXAMPLE:** 2 marks
   
   5. Wrong answers are awarded **0 points**
  
      **INPUT EXAMPLE:** 
-     * Script tags        
-     * Js tags            
-     * JavaScript tag     - Checked(Wrong Answer)
-     * Scripting tags    
+      * while()          -Checked
+      * loop()           
+      * forEach()        
      
      **OUTPUT EXAMPLE:** 0 marks
     
@@ -77,4 +84,7 @@ An online test that alllows user to answer questions using multiple choices then
  ## Copyright and License Information
   This project is licensed under the terms of the **MIT** license.
  
+ 
+*
+  
  
